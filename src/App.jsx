@@ -1,9 +1,25 @@
 import "./App.css";
 
+import {
+  Header,
+  Solution,
+  Goal,
+  Companies,
+  Platforms,
+  Pricing,
+  Footer,
+} from "./containers/index";
+
 function App() {
   return (
     <>
-      <h1>FindTrend</h1>
+      <Header></Header>
+      <Solution></Solution>
+      <Goal></Goal>
+      <Companies></Companies>
+      <Platforms></Platforms>
+      <Pricing></Pricing>
+      <Footer></Footer>
     </>
   );
 }
