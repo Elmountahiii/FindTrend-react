@@ -13,7 +13,9 @@ import {
 function App() {
   return (
     <>
-      <Header></Header>
+      <div className="header-background">
+        <Header></Header>
+      </div>
       <Solution></Solution>
       <Goal></Goal>
       <Companies></Companies>

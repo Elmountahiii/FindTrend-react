@@ -7,9 +7,27 @@
 }
 
 body {
-  max-width: 1500px;
-  margin: 0 auto;
 
   font-family: var(--font-family);
 
 }
+
+.inside-container {
+  max-width: 1500px;
+  margin: 0 auto;
+
+}
+
+
+.header-background {
+
+  background: var(--color-black);
+  width: 100%;
+}
+
+.container-padding {
+  padding: 1.5rem 4rem;
+
+}
+
+.section-margin {}
