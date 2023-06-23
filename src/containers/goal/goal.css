@@ -1,0 +1,22 @@
+.goal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.goal-container h1 {
+    color: var(--color-black);
+    font-size: 2rem;
+    font-family: var(--font-family);
+    font-weight: 700;
+    max-width: 890px;
+}
+
+
+.goal-container h1 span {
+    color: var(--color-grey-2);
+
+}
