@@ -16,7 +16,9 @@ function App() {
       <div className="header-background">
         <Header></Header>
       </div>
-      <Solution></Solution>
+      <div className="solution-background">
+        <Solution></Solution>
+      </div>
       <Goal></Goal>
       <Companies></Companies>
       <Platforms></Platforms>

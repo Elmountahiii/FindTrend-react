@@ -25,9 +25,25 @@ body {
   width: 100%;
 }
 
+.solution-background {
+
+  background: var(--color-primary);
+
+}
+
 .container-padding {
   padding: 1.5rem 4rem;
 
 }
 
 .section-margin {}
+
+
+@media (max-width:500px) {
+
+  .container-padding {
+    padding: 1rem 2.5rem;
+  }
+
+
+}
